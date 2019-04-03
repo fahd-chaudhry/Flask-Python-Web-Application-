@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Team 9: Tech Demo on Flask</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <!-- The block body is linkted with home.html -->
+    {% include 'includes/_navbar.html' %}
+  <div class="container">
+    {% include 'includes/_messages.html' %}
+    {% block body %}{% endblock %}
+  </div>
+    <!-- Javascript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdn.ckeditor.com/4.9.2/standard/ckeditor.js"></script>
+    <script type="text/javascript">
+      CKEDITOR.replace('ckeditor');
+    </script>
+  </body>
+</html>
