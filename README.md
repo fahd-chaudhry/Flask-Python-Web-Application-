@@ -6,7 +6,7 @@ Provisioned using Vagrant into a Virtual Box VM.
 
 1. Clone branch/pull to latest release.<p>
 2. Enter the following commands in terminal in the given order: 
-  - `Vagrant up` <p>
+  - `vagrant up` <p>
   - `vagrant provision` (if you have pulled the code before) <p>
   - `vagrant ssh` <p>
   - `cd /project` <p>
